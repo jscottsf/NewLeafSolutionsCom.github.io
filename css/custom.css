@@ -1,0 +1,85 @@
+/*!
+ * Overrides for New Leaf Solutions, Inc.
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: none;
+    font-weight: 300;
+}
+
+hr.nls-sep {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.nls-sep {
+    border-color: #2c3e50;
+}
+
+section.success hr.nls-sep {
+    border-color: #fff;
+}
+
+header {
+    /*background: #6a18bc;*/
+    background: #9D50BB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header .container {
+    padding-top: 50px;
+}
+
+header .intro-text .name {
+    font-weight: 300;
+}
+
+header .intro-text .skills {
+    font-weight: 100;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 100px;
+    }
+}
+
+section.success {
+    /*background: #41c319;*/
+    background: #4EB848;
+}
+
+footer .footer-above {
+    /*background-color: #6a18bc;*/
+    background: #673AB7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer .footer-below {
+    background-color: #47107f;
+}
+
+.nls-logo {
+	width: 800px;
+}
+
+.nls-portfolio-item {
+	margin-bottom: 20px;
+}
+
+@media(min-width:768px) {
+    .nls-portfolio-image {
+		padding: 20px;
+    }
+}
